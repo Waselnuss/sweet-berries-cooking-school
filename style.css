@@ -243,6 +243,9 @@ nav :last-child{
 /* ---------- Tablet Sizing ---------- */
 
 @media(max-width: 768px) {
+    .header{
+        grid-column: span1;
+    }
     .header-left{
         grid-column: span2;
     }
