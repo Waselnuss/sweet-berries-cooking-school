@@ -1,0 +1,63 @@
+/* ---------- Tablet Sizing ---------- */
+
+
+.header{
+    max-width: 100%;
+    flex-direction: column;
+}
+
+.header-left{
+    max-width: 100%;
+    width: auto;
+    text-align: center;
+    margin: 0;
+    margin-top: 60px;
+    padding-inline: 20px;
+}
+
+.header-right{
+    max-width: 100%;
+    margin-inline: 40px;
+    justify-content: stretch;
+}
+
+.header-right img{
+    width: 688px;
+    height: auto;
+}
+
+.card-container{
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.card{
+    width: 310px;
+    height: 250px;
+    padding-inline: 10px;
+}
+
+.card-1 h2{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 37px;
+    padding: 20px;
+    padding-top: 40px;
+}
+
+
+.card fieldset h3{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0px;
+}
+
+.card p{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+
+}

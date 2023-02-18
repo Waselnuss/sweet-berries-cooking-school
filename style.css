@@ -89,6 +89,9 @@ nav :last-child{
     margin-left: 20px;
 }
 
+/* ---------- Menu right side ---------- */
+
+
 .menu img{
     height: 40px;
 }
@@ -100,6 +103,10 @@ nav :last-child{
     height: 48px;
     border: none;
     border-radius: 28px;
+}
+
+.menu i{
+    display: none;
 }
 
 /* ---------- Header ---------- */
@@ -240,13 +247,5 @@ nav :last-child{
     height: 32px;
 }
 
-/* ---------- Tablet Sizing ---------- */
 
-@media(max-width: 768px) {
-    .header{
-        grid-column: span1;
-    }
-    .header-left{
-        grid-column: span2;
-    }
-}
+
