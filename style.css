@@ -1,5 +1,5 @@
 /* ---------- Main Settings ---------- */
-
+/* Nice work using CSS variables! */
 :root{
     --background: #F5F3EF;
     --background-dark: #000000;
@@ -48,8 +48,11 @@ a, button{
 
 /* ---------- Layout ---------- */
 
+/* Good job on using Grid and flex box. However, there’s room for improvement. 
+You added a margin on the top and bottom for most grid items. 
+You can take advantage of declaring the grid-template-rows for better code quality and for easier managing. */
 
-
+/* Grid template areas haven’t been used to display items at different positions in different viewports. */
 .grid-container{
     display:grid;
     grid-template-columns: repeat(2, 1fr);
@@ -225,6 +228,9 @@ nav :last-child{
 
 }
 
+/* Even-though it looks like you achieved placing the logo above the card, it is not the proper way.
+You should give the icon a position of absolute, this will bring the icon out of the document flow.
+Then you need to give the card a position of relative in order for the icon to be placed in relative to the card. */
 .card legend{
     float: right;
     position: relative;
